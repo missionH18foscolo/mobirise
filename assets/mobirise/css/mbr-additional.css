@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
-@primaryColor: #abe8fd;
+@primaryColor: #0f7699;
 @secondaryColor: #ff3366;
 @successColor: #F7ED4A;
 @infoColor: #82786E;
@@ -1278,60 +1278,45 @@ html,body{
     }
 }@isPublish: true;
 
-.cid-rjsSR5MPH6 {
-@fullScreen: false;
-@paddingTop: 6;
-@paddingBottom: 6;
-@showTitle: true;
-@showSubTitle: false;
-@showText: true;
-@showButtons: false;
-@mediaSize: 60;
-@uname__12: "file:///C:/Users/Utente/AppData/Local/Mobirise.com/Mobirise/projects/project-2019-02-12_085453/assets/images/whatsapp%20image%202018-11-09%20at%2015.10.03-1521x855.jpg";
-@uname__13: true;
-@uname__14: #0f7699;
-@bg-value: "file:///C:/Users/Utente/AppData/Local/Mobirise.com/Mobirise/projects/project-2019-02-12_085453/assets/images/whatsapp%20image%202018-11-09%20at%2015.10.03-1521x855.jpg";
-@bg-type: "image";
-@bg-color-value: #0f7699;
-@bg-parallax: true;
-@overlay: true;
-@overlayColor: #232323;
-@overlayOpacity: 0.8;
+.cid-rjsVFqnjvH {
+@fullWidth: true;
+@paddingTop: 4;
+@paddingBottom: 4;
+@showText: false;
+@imageSize: 100;
+@bgColor: #ffffff;
+@gradientBg: false;
+@color2: #149dcc;
 
-& when not (@fullScreen) {
+background: @bgColor;
+& when (@fullWidth = false) {
   padding-top: (@paddingTop * 15px);
   padding-bottom: (@paddingBottom * 15px);
 }
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
+& when (@gradientBg) {
+  background: linear-gradient(45deg, @bgColor, @color2);
 }
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
+.image-block {
+  margin: auto;
+  & when (@fullWidth) {
+    width: 100% !important;
+  }
 }
 .mbr-figure {
   margin: 0 auto;
-  width: 100%;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-  img {
-    height: 100%;
-    margin: 0 auto;
+}
+figcaption {
+  position: relative;
+  div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
-@media (max-width: 991px) {
-  .mbr-figure {
-    img {
-      width: 100% !important;
-    }
+@media (max-width: 768px) {
+  .image-block {
+    width: 100% !important;
   }
-}
-H1 {
-  color: #ffffff;
-}
-.mbr-text, .mbr-section-btn {
-  text-align: center;
-  color: #ffffff;
 }
 }
 
