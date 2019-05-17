@@ -1971,21 +1971,3 @@ background-color: @bgColor;
     font-size: 40px !important;
   }
 }
-.cid-rqISuj9lce {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-@media (min-width: 992px) {
-  .cid-rqISuj9lce .mbr-figure {
-    padding-right: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rqISuj9lce .mbr-figure {
-    padding-bottom: 1rem;
-  }
-}
-.cid-rqISuj9lce .mbr-text {
-  color: #767676;
-}
