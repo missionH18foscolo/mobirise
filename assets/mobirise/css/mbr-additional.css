@@ -1897,3 +1897,15 @@ background-color: @bgColor;
   color: #767676;
 }
 }
+.cid-rqII1AYGtG {
+  background: #ffffff;
+}
+.cid-rqII1AYGtG .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-rqII1AYGtG .video-block {
+    width: 100% !important;
+  }
+}
