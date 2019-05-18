@@ -1979,6 +1979,19 @@ background-color: @bgColor;
   }
 }
 }
+
+.cid-rqO5notiZY {
+@paddingTop: 4;
+@paddingBottom: 4;
+@bgColor: #ffffff;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-text, blockquote {
+  color: #767676;
+}
+}
 .cid-rqII1AYGtG {
   background: #ffffff;
 }
